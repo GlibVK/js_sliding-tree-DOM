@@ -1,0 +1,2 @@
+document.querySelectorAll("li").forEach(function(e){if(e.querySelector("ul")){var t=document.createElement("span");t.textContent=e.firstChild.textContent.trim(),e.firstChild.textContent="",e.insertAdjacentElement("afterbegin",t),t.addEventListener("click",function(e){var t=e.target.nextElementSibling;t.style.display="none"===t.style.display?"block":"none"})}});
+//# sourceMappingURL=index.6ecb6b54.js.map
